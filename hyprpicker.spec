@@ -46,6 +46,9 @@ install -m 755 -Dp %{__cmake_builddir}/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Fri Apr 26 2024 Vineel Sai <mail@vineelsai.com> 0.2.0-1
+- new package built with tito
+
 * Fri Apr 26 2024 Vineel Sai <mail@vineelsai.com> 0.2.0-2
 - fix build deps (mail@vineelsai.com)
 
