@@ -1,6 +1,6 @@
 Name:           hyprpicker
 Version:        0.2.0
-Release:        2
+Release:        1
 Summary:        A wlroots-compatible Wayland color picker that does not suck.
 
 License:        BSD-3-Clause
@@ -21,6 +21,7 @@ BuildRequires:  pkgconfig(pango)
 BuildRequires:  pkgconfig(pangocairo)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(wayland-protocols)
+BuildRequires:  pkgconfig(xkbcommon)
 
 %description
 A wlroots-compatible Wayland color picker that does not suck.
